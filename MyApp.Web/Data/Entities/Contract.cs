@@ -8,6 +8,7 @@ namespace MyApp.Web.Data.Entities
 {
     public class Contract
     {
+        //llave primaria
         public int Id { get; set; }
 
         [Required(ErrorMessage = "The field {0} is mandatory.")]
